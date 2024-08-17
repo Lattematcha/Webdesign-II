@@ -54,6 +54,11 @@ nav a {
     height: 100vh;
 }
 
+.hero-container-contact {
+    display: flex;
+    height: 100vh;
+}
+
 .column-one, .column-two {
     width: 50%;
 }
@@ -71,6 +76,15 @@ nav a {
     align-items: center;
     padding: 50px;
     box-sizing: border-box;
+}
+
+.column-two-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-flow: column;
 }
 
 .cards-container {
@@ -128,5 +142,18 @@ nav a {
         background-repeat: no-repeat;
         background-position: center, center;
         color:white;
+    }
+
+    .column-two-contact {
+        width: 100%;
+        background: url('https://images.pexels.com/photos/638689/pexels-photo-638689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, center;
+        color:white;
+        padding-top: 175px;
+    }
+    .hero-container-contact {
+        height: auto;
     }
 }

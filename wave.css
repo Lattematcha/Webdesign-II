@@ -215,3 +215,14 @@
       transform: rotateY(90deg) scale(0);
     }
   }
+
+@media (width < 600px) {
+  .container {
+    flex:auto;
+    display: flexbox;
+    scale: .4;
+    justify-items: center;
+    padding-top: 100px;
+    padding-right: 50vw;
+  }
+}
